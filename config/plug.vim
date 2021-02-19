@@ -14,8 +14,11 @@ call plug#begin('~/.vim/plugged')
 	" Git integration in Vim
 	Plug 'airblade/vim-gitgutter'
 
+	" Extra language support
+	Plug 'sheerun/vim-polyglot'
+
 	" Zen mode for Vim
-	Plug 'junegunn/goyo.vim'
+	" Plug 'junegunn/goyo.vim'
 
 	" Highlight current block
 	" Plug 'junegunn/limelight.vim'
@@ -24,7 +27,19 @@ call plug#begin('~/.vim/plugged')
 	" Plug 'jeffkreeftmeijer/vim-dim'
 
 	" Papercolor theme
-	Plug 'NLKNguyen/papercolor-theme'
+	" Plug 'NLKNguyen/papercolor-theme'
+
+	" Gruvbox theme
+	Plug 'morhetz/gruvbox'
+
+	" Solarized
+	 Plug 'altercation/vim-colors-solarized'
+
+	" ayu theme
+	" Plug 'ayu-theme/ayu-vim'
+
+	" deus theme
+	Plug 'ajmwagar/vim-deus'
 
 	" Latex
 	Plug 'lervag/vimtex'
@@ -36,13 +51,26 @@ call plug#begin('~/.vim/plugged')
 	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
 
-	" Lightline
-	Plug 'itchyny/lightline.vim'
+	" Statusbar
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 
 	" Start page
 	Plug 'mhinz/vim-startify'
 
-	" Ranger
-	" Plug 'francoiscabrol/ranger.vim'
+	" Show command helper
+	Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+
+	" Floating terminal
+	Plug 'voldikss/vim-floaterm'
+
+	" Fuzzyfind
+	Plug 'conweller/findr.vim'
+
+	" Commenter
+	Plug 'preservim/nerdcommenter'
+
+	" Smooth scroll
+	Plug 'psliwka/vim-smoothie'
 
 call plug#end()

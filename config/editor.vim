@@ -16,7 +16,7 @@ set linebreak
 set showmatch
 
 " Line height
-set linespace=2
+set linespace=3
 
 " Remove scrollbar
 set guioptions=
@@ -45,13 +45,13 @@ set tabstop=4
 " See multiple spaces as tabstops so <BS> does the right thing
 set softtabstop=4
 
-" Change tab to four spaces
+" Don't change tab to four spaces
 set noexpandtab
 
 " Remove trailing whitespace on write
 autocmd BufWritePre * %s/\s\+$//e
 
 " Folding
-set foldmethod=indent
-set foldlevel=99
-nnoremap <space> za
+" set foldmethod=indent
+" set foldlevel=99
+" nnoremap <space> za

@@ -32,4 +32,4 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " Use `:Format` to format current buffer
 " CHANGE TO onsave
 " command! -nargs=0 Format :call CocAction('format')
-autocmd BufWritePost * :call CocAction('format')
+" autocmd BufWritePost * :call CocAction('format')

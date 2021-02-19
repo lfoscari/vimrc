@@ -26,3 +26,6 @@ set nocompatible
 
 " Hide mode label
 set noshowmode
+
+" Timeout between keypress
+set timeoutlen=500

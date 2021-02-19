@@ -1,3 +1,5 @@
+" ----- Search -----
+
 " Enable smart-case search
 set smartcase
 

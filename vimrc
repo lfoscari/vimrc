@@ -9,10 +9,10 @@
 filetype plugin on
 
 " Basic
+runtime config/plug.vim
 runtime config/general.vim
 runtime config/editor.vim
 runtime config/search.vim
-runtime config/plug.vim
 runtime config/style.vim
 runtime config/keys.vim
 
