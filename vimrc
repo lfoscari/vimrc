@@ -22,6 +22,7 @@ runtime config/plugins/conceal.vim
 runtime config/plugins/ultisnips.vim
 runtime config/plugins/coc.vim
 runtime config/plugins/markdown.vim
-runtime config/plugins/lightline.vim
+runtime config/plugins/statusbar.vim
 runtime config/plugins/nerdtree.vim
 runtime config/plugins/startify.vim
+runtime config/plugins/whichkey.vim

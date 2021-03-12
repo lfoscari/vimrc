@@ -5,11 +5,11 @@ call plug#begin('~/.vim/plugged')
 	" Conquer of Completion
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-	" TabNine
-	" Plug 'zxqfl/tabnine-vim'
-
 	" Nerdtree folder manager
 	Plug 'scrooloose/nerdtree'
+
+	" Fancy icons
+	Plug 'ryanoasis/vim-devicons'
 
 	" Git integration in Vim
 	Plug 'airblade/vim-gitgutter'
@@ -17,29 +17,14 @@ call plug#begin('~/.vim/plugged')
 	" Extra language support
 	Plug 'sheerun/vim-polyglot'
 
-	" Zen mode for Vim
-	" Plug 'junegunn/goyo.vim'
-
-	" Highlight current block
-	" Plug 'junegunn/limelight.vim'
-
-	" Dim theme
-	" Plug 'jeffkreeftmeijer/vim-dim'
+	" Distraction-free reading
+	Plug 'junegunn/goyo.vim'
 
 	" Papercolor theme
 	" Plug 'NLKNguyen/papercolor-theme'
 
 	" Gruvbox theme
 	Plug 'morhetz/gruvbox'
-
-	" Solarized
-	 Plug 'altercation/vim-colors-solarized'
-
-	" ayu theme
-	" Plug 'ayu-theme/ayu-vim'
-
-	" deus theme
-	Plug 'ajmwagar/vim-deus'
 
 	" Latex
 	Plug 'lervag/vimtex'
@@ -59,7 +44,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'mhinz/vim-startify'
 
 	" Show command helper
-	Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+	Plug 'liuchengxu/vim-which-key'
 
 	" Floating terminal
 	Plug 'voldikss/vim-floaterm'
@@ -72,5 +57,8 @@ call plug#begin('~/.vim/plugged')
 
 	" Smooth scroll
 	Plug 'psliwka/vim-smoothie'
+
+	" Multiple cursors
+	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
