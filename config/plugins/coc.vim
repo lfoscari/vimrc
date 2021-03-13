@@ -9,7 +9,7 @@ set updatetime=300
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved
-set signcolumn=number
+" set signcolumn=number
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
