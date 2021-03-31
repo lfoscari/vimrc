@@ -5,4 +5,4 @@ let g:vimtex_view_method='skim'
 let g:vimtex_quickfix_mode=0
 
 " Spellchecking
-autocmd FileType tex set spell spelllang=it_it,en_gb textwidth=79 formatoptions+=t
+autocmd FileType tex,txt,md set spell spelllang=it_it,en_gb textwidth=79 formatoptions+=t

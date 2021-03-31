@@ -29,3 +29,7 @@ set noshowmode
 
 " Timeout between keypress
 set timeoutlen=500
+
+" Enable modline
+set modeline
+set modelines=5
