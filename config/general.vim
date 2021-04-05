@@ -30,6 +30,10 @@ set noshowmode
 " Timeout between keypress
 set timeoutlen=500
 
+" Enable modline
+set modeline
+set modelines=5
+
 " Maintaing undo history between sessions
 set undofile
 set undodir=~/.vim/undodir
