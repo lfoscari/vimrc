@@ -51,6 +51,8 @@ set noexpandtab
 " Remove trailing whitespace on write
 autocmd BufWritePre * %s/\s\+$//e
 
+autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
+
 " Folding
 " set foldmethod=indent
 " set foldlevel=99
