@@ -37,3 +37,6 @@ set modelines=5
 " Maintaing undo history between sessions
 set undofile
 set undodir=~/.vim/undodir
+
+" Filetype
+filetype plugin on
