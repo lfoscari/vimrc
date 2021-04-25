@@ -39,4 +39,4 @@ set undofile
 set undodir=~/.vim/undodir
 
 " Filetype
-filetype plugin on
+filetype plugin indent on

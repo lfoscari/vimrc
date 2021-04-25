@@ -64,8 +64,8 @@ let g:which_key_map.f = {
 
 " Terminal
 nnoremap <silent> <leader>tf :FloatermToggle<CR>
-nnoremap <silent> <leader>tv :vert term<CR>
-nnoremap <silent> <leader>tt :term<CR>
+nnoremap <silent> <leader>tv :vsplit \| term<CR>
+nnoremap <silent> <leader>tt :split \| term<CR>
 
 let g:which_key_map.t = {
 	\ 'name' : '+terminal',

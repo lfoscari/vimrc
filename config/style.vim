@@ -23,10 +23,10 @@ if has('gui_running')
 	set termguicolors
 
 	" Font
-	set guifont=JetBrainsMono\ Nerd\ Font:h11
+	set guifont=JetBrainsMono\ Nerd\ Font\ Mono:style=Regular:h11
 
 	" Ligatures
-	set macligatures
+	" set macligatures
 
 	" if strftime("%H") < 19
 	" 	set background=light
