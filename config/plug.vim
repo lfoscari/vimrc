@@ -24,7 +24,10 @@ call plug#begin('~/.vim/plugged')
 	" Plug 'NLKNguyen/papercolor-theme'
 
 	" Gruvbox theme
-	Plug 'morhetz/gruvbox'
+	" Plug 'morhetz/gruvbox'
+
+	" Github theme
+	Plug '1612492/github.vim'
 
 	" Latex
 	Plug 'lervag/vimtex'

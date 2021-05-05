@@ -3,9 +3,8 @@
 " Enable syntax highlight
 syntax enable
 
-" Dark gruvbox
-set background=dark
-colorscheme gruvbox
+" Theme
+colorscheme github
 
 " Vertical split bar configuration (tmux-like separator)
 set fillchars+=vert:│
@@ -18,19 +17,7 @@ hi VertSplit ctermbg=NONE guibg=NONE
 " Highlight current line
 set cursorline
 
-if has('gui_running')
-	" macOS terminal does not support termguicolors
-	set termguicolors
-
-	" Font
-	set guifont=JetBrainsMono\ Nerd\ Font\ Mono:style=Regular:h11
-
-	" Ligatures
-	" set macligatures
-
-	" if strftime("%H") < 19
-	" 	set background=light
-	" else
-	" 	set background=dark
-	" endif
-endif
+" Create new colors from the essence of the universe
+" set termguicolors
+" let &t_8f = "\e[38;2;%lu;%lu;%lum"
+" let &t_8b = "\e[48;2;%lu;%lu;%lum"
