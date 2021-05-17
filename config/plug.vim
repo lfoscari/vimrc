@@ -36,8 +36,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'KeitaNakamura/tex-conceal.vim'
 
 	" Snippets
-	Plug 'SirVer/ultisnips'
-	Plug 'honza/vim-snippets'
+	" Plug 'SirVer/ultisnips'
+	" Plug 'honza/vim-snippets'
 
 	" Statusbar
 	Plug 'vim-airline/vim-airline'
